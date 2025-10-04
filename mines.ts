@@ -249,10 +249,10 @@ function draw() {
             } else {
                 ctx.fillStyle = '#bbb';
                 ctx.fillRect(x * CELL_SIZE, y * CELL_SIZE, CELL_SIZE, CELL_SIZE);
-                ctx.fillStyle = 'red';
                 ctx.font = '20px sans-serif';
                 ctx.textAlign = 'center';
                 ctx.textBaseline = 'middle';
+                ctx.fillStyle = 'blue';
                 ctx.fillText(cell.toString(), x * CELL_SIZE + CELL_SIZE / 2, y * CELL_SIZE + CELL_SIZE / 2);
             }
         }
